@@ -1,10 +1,26 @@
+"use client"
+
 import Logo from "@/components/Helper/Logo"
 import ThemeToggler from "@/components/Helper/ThemeToggler"
 import { Navlinks } from "@/Constant/Constant"
 import { Download, MenuIcon } from "lucide-react"
 import Link from "next/link"
+import { useEffect, useState } from "react"
 
 const Nav = () => {
+  const [navBg, setNavBg] = useState(false)
+
+  useEffect(() => {
+    const handler = () => {
+      if (window.scrollY >= 90) setNavBg(true)
+      if (window.scrollY < 90) setNavBg(false)
+    }
+
+    window.addEventListener("scroll", handler)
+
+    return () => window.removeEventListener("scroll", handler)
+  }, [])
+
   return (
     <div className="transition-all duration-200 h-[12vh] zoom-200 fixed w-full">
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
