@@ -17,7 +17,7 @@ const Hero = () => {
           </span>
         </div>
         {/* title */}
-        <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-cursive mb-6">
+        <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-light mb-6">
           {/* Hi, I&apos;m{" "} */}
           <span className="text-purple-800 dark:text-cyan-400 uppercase">
             Lawrence Caulker
