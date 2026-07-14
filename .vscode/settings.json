@@ -1,5 +1,5 @@
 {
   "js/ts.tsdk.path": "node_modules/typescript/lib",
   "editor.wordWrap": "on",
-  "cSpell.words": ["Navlinks", "scro", "shadcn"]
+  "cSpell.words": ["MERN", "Navlinks", "scro", "shadcn"]
 }

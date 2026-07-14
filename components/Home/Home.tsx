@@ -1,4 +1,10 @@
+import Hero from "./Hero/Hero"
+
 const Home = () => {
-  return <div className="overflow-hidden"></div>
+  return (
+    <div>
+      <Hero />
+    </div>
+  )
 }
 export default Home
