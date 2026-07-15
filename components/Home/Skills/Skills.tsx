@@ -15,7 +15,7 @@ const Skills = () => {
         {skillCategories.map((category) => {
           return (
             <div key={category.title}>
-              <h3 className="text-xl font-semibold mb-6 flex items-center gap-3 uppercase">
+              <h3 className="text-xl font-semibold mb-6 flex items-center gap-3">
                 <span className="w-2 h-2 rounded-full bg-purple-600"></span>
                 {category.title}
               </h3>
