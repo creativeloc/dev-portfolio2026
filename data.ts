@@ -155,7 +155,7 @@ export const footerSocialLinks = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "eCommerce Platform",
     description:
       "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
     image: "/images/p1.jpg",
@@ -200,7 +200,7 @@ export const projects = [
     githubUrl: "https://github.com"
   },
   {
-    title: "Learning Management System",
+    title: "Learning Management App",
     description:
       "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
     image: "/images/p6.jpg",
@@ -212,7 +212,7 @@ export const projects = [
 
 export const skillCategories = [
   {
-    title: "Frontend",
+    title: "FrontEnd Developer",
     skills: [
       { name: "React", icon: Code2 },
       { name: "Next.js", icon: Globe },
@@ -235,7 +235,7 @@ export const skillCategories = [
     ]
   },
   {
-    title: "Backend",
+    title: "BackEnd Developer",
     skills: [
       { name: "Node.js", icon: Server },
       { name: "Express", icon: Layers },
@@ -253,7 +253,7 @@ export const skillCategories = [
     ]
   },
   {
-    title: "WordPress",
+    title: "WordPress Developer",
     skills: [
       { name: "Gutenberg", icon: Server },
       { name: "Elementor Pro", icon: Server },
@@ -284,7 +284,9 @@ export const skillCategories = [
       { name: "WCAG", icon: Palette },
       { name: "ADA", icon: Palette },
       { name: "Agile Team", icon: Palette },
-      { name: "CI/CD", icon: Cpu }
+      { name: "CI/CD", icon: Cpu },
+      { name: "VS Code", icon: Cpu },
+      { name: "WS Storm", icon: Cpu }
     ]
   }
 ]
