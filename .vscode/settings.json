@@ -1,5 +1,14 @@
 {
   "js/ts.tsdk.path": "node_modules/typescript/lib",
   "editor.wordWrap": "on",
-  "cSpell.words": ["MERN", "Navlinks", "scro", "shadcn"]
+  "cSpell.words": [
+    "Elementor",
+    "Flexbox",
+    "GSAP",
+    "MERN",
+    "Navlinks",
+    "scro",
+    "shadcn",
+    "Yoast"
+  ]
 }
