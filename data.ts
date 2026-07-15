@@ -14,6 +14,7 @@ import {
   MapPin,
   Palette,
   Phone,
+  Pyramid,
   Server,
   Smartphone,
   Terminal
@@ -217,8 +218,20 @@ export const skillCategories = [
       { name: "Next.js", icon: Globe },
       { name: "TypeScript", icon: Terminal },
       { name: "Tailwind CSS", icon: Palette },
+      { name: "Flexbox", icon: Palette },
+      { name: "CSS Grid", icon: Palette },
       { name: "React Native", icon: Smartphone },
-      { name: "Vue.js", icon: Layout }
+      { name: "SASS/SCSS", icon: Smartphone },
+      { name: "BEM", icon: Smartphone },
+      { name: "Redux ToolKot", icon: Smartphone },
+      { name: "Context API", icon: Smartphone },
+      { name: "Array functions", icon: Smartphone },
+      { name: "JavaScript", icon: Smartphone },
+      { name: "HTML/CSS", icon: Smartphone },
+      { name: "CSS Animations", icon: Smartphone },
+      { name: "GSAP", icon: Smartphone },
+      { name: "Animations", icon: Smartphone },
+      { name: "ES6+", icon: Layout }
     ]
   },
   {
@@ -227,9 +240,35 @@ export const skillCategories = [
       { name: "Node.js", icon: Server },
       { name: "Express", icon: Layers },
       { name: "MongoDB", icon: Database },
+      { name: "NoSQL", icon: Database },
+      { name: "MySQL", icon: Database },
       { name: "PostgreSQL", icon: Database },
       { name: "GraphQL", icon: Cpu },
-      { name: "REST APIs", icon: Cloud }
+      { name: "Prisma", icon: Pyramid },
+      { name: "Mongoose", icon: Database },
+      { name: "Strapi", icon: Cloud },
+      { name: "Fetch/Axios", icon: Cloud },
+      { name: "REST APIs", icon: Cloud },
+      { name: "CRUD", icon: Cloud }
+    ]
+  },
+  {
+    title: "WordPress",
+    skills: [
+      { name: "Gutenberg", icon: Server },
+      { name: "Elementor Pro", icon: Server },
+      { name: "PHP", icon: Server },
+      { name: "Plugins", icon: Server },
+      { name: "Themes", icon: Server },
+      { name: "Headless CMS", icon: Layers },
+      { name: "Contentful", icon: Layers },
+      { name: "CPT/ACF", icon: Database },
+      { name: "WP_Query", icon: Database },
+      { name: "WP Hooks", icon: Database },
+      { name: "WooCommerce", icon: Cpu },
+      { name: "SEO/Yoast", icon: Cpu },
+      { name: "FSE", icon: Cpu },
+      { name: "WP MultiSite", icon: Cloud }
     ]
   },
   {
@@ -240,6 +279,11 @@ export const skillCategories = [
       { name: "AWS", icon: Cloud },
       { name: "Linux", icon: Terminal },
       { name: "Figma", icon: Palette },
+      { name: "Sketch", icon: Palette },
+      { name: "Adobe XD", icon: Palette },
+      { name: "WCAG", icon: Palette },
+      { name: "ADA", icon: Palette },
+      { name: "Agile Team", icon: Palette },
       { name: "CI/CD", icon: Cpu }
     ]
   }
