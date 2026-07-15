@@ -231,7 +231,9 @@ export const skillCategories = [
       { name: "CSS Animations", icon: Smartphone },
       { name: "GSAP", icon: Smartphone },
       { name: "Animations", icon: Smartphone },
-      { name: "ES6+", icon: Layout }
+      { name: "ES6+", icon: Layout },
+      { name: "Responsive", icon: Layout },
+      { name: "Media Queries", icon: Layout }
     ]
   },
   {
@@ -262,13 +264,15 @@ export const skillCategories = [
       { name: "Themes", icon: Server },
       { name: "Headless CMS", icon: Layers },
       { name: "Contentful", icon: Layers },
-      { name: "CPT/ACF", icon: Database },
+      { name: "Custom PT", icon: Database },
+      { name: "Advanced CF", icon: Database },
       { name: "WP_Query", icon: Database },
-      { name: "WP Hooks", icon: Database },
+      { name: "Action Hooks", icon: Database },
+      { name: "Filter Hooks", icon: Database },
       { name: "WooCommerce", icon: Cpu },
       { name: "SEO/Yoast", icon: Cpu },
       { name: "FSE", icon: Cpu },
-      { name: "WP MultiSite", icon: Cloud }
+      { name: "WP MultiSites", icon: Cloud }
     ]
   },
   {
@@ -283,10 +287,19 @@ export const skillCategories = [
       { name: "Adobe XD", icon: Palette },
       { name: "WCAG", icon: Palette },
       { name: "ADA", icon: Palette },
-      { name: "Agile Team", icon: Palette },
+      { name: "Agile Method", icon: Palette },
       { name: "CI/CD", icon: Cpu },
       { name: "VS Code", icon: Cpu },
-      { name: "WS Storm", icon: Cpu }
+      { name: "WS Storm", icon: Cpu },
+      { name: "Clerk", icon: Cpu },
+      { name: "NextAuth", icon: Cpu },
+      { name: "Shadcn UI", icon: Cpu },
+      { name: "Framer Motion", icon: Cpu },
+      { name: "Vercel", icon: Cpu },
+      { name: "Netlify", icon: Cpu },
+      { name: "JWT", icon: Cpu },
+      { name: "JWT", icon: Cpu },
+      { name: "ESLint", icon: Cpu }
     ]
   }
 ]
