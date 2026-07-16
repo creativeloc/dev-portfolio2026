@@ -74,7 +74,7 @@ export const userReviewData = [
 export const contactInfo = [
   {
     icon: Mail,
-    label: "Email",
+    label: "eMail",
     value: "hello@johndoe.dev",
     href: "mailto:hello@johndoe.dev"
   },
