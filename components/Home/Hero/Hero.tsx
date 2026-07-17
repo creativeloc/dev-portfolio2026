@@ -10,14 +10,18 @@ const Hero = () => {
       {/* content */}
       <div className="relative z-10 text-center">
         {/* subtitle */}
-        <div className="sm:mb-6">
+        <div data-aos="fade-up" className="sm:mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-gray-600 text-sm text-muted-foreground dark:text-gray-200 mb-8 border-2">
             <span className="w-2 h-2 rounded-full bg-green-500"></span>
             Hi, I&apos;m Available for Hire
           </span>
         </div>
         {/* title */}
-        <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-light mb-6">
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="100"
+          className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-light mb-6"
+        >
           {/* Hi, I&apos;m{" "} */}
           <span className="text-purple-800 dark:text-cyan-400 uppercase">
             Lawrence Caulker
@@ -25,7 +29,11 @@ const Hero = () => {
         </h1>
 
         {/* type writing effects */}
-        <div className="text-xl sm:text-2xl md:text-3xl text-black dark:text-white font-semibold mb-4 sm:mb-8 h-12">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="text-xl sm:text-2xl md:text-3xl text-black dark:text-white font-semibold mb-4 sm:mb-8 h-12"
+        >
           <TypeAnimation
             sequence={[
               "Nextjs-React Developer",
@@ -51,13 +59,21 @@ const Hero = () => {
         </div>
 
         {/* Description */}
-        <p className="text-lg text-muted-foreground dark:text-gray-200 max-w-2xl mx-auto mb-10">
+        <p
+          data-aos="fade-up"
+          data-aos-delay="300"
+          className="text-lg text-muted-foreground dark:text-gray-200 max-w-2xl mx-auto mb-10"
+        >
           Crafting exceptional digital experiences using modern technologies.
           Passionate about building scalable applications and teaching others.
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="400"
+          className="flex flex-col sm:flex-row gap-4 justify-center"
+        >
           <Button size={"lg"} asChild className="flex w-fit mx-auto sm:mx-0">
             <a href="#_">
               <FolderOpen data-icon="inline-start" className="w-5 h-5 mr-2" />
